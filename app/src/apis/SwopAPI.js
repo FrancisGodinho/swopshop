@@ -1,6 +1,7 @@
 import axios from "axios";
 //const base_url = "http://127.0.0.1:8080";
-const base_url = "http://ec2-18-144-90-64.us-west-1.compute.amazonaws.com:8080";
+//const base_url = "http://ec2-18-144-90-64.us-west-1.compute.amazonaws.com:8080";
+const base_url = "ec2-18-144-101-227.us-west-1.compute.amazonaws.com:8080";
 
 function get(route, params) {
   return axios.get(base_url + route, params);
